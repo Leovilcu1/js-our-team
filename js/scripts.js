@@ -1,50 +1,39 @@
-const personOne ={
-    AaName:"Wayne Barnett",
-    role:"Founder & CEO",
-    image:"wayne-barnett-founder-ceo.jpg"
-};
-
-
-const personTwo ={
-    AaName:"Angela Caroll",
-    role:"Chief Editor",
-    image:"angela-caroll-chief-editor.jpg"
-};
-
-const personTree ={
-    AaName:"Walter Gordon",
-    role:"Office Manager",
-    image:"walter-gordon-office-manager.jpg"
-};
-
-const personFour ={
-    AaName:"Angela Lopez",
-    role:"Social Media Manager",
-    image:"angela-lopez-social-media-manager.jpg"
-};
-
-const personFive ={
-    AaName:"Scott Estrada",
-    role:"Developer",
-    image:"scott-estrada-developer.jpg"
-};
-
-const personSix ={
-    AaName:"Barbara Ramos",
-    role:"Graphic Designer",
-    image:"barbara-ramos-graphic-designer.jpg"
-};
-
-
-const team = [];
-team.push(personOne);
-team.push(personTwo);
-team.push(personTree);
-team.push(personFour);
-team.push(personFive);
-team.push(personSix);
-
-
+const team = [
+    {
+        "AaName":"Wayne Barnett",
+        "role":"Founder & CEO",
+        "image":"wayne-barnett-founder-ceo.jpg"
+    },
+    
+    {
+        "AaName":"Angela Caroll",
+        "role":"Chief Editor",
+        "image":"angela-caroll-chief-editor.jpg"
+    },
+    
+    {
+        "AaName":"Walter Gordon",
+        "role":"Office Manager",
+        "image":"walter-gordon-office-manager.jpg"
+    },
+    {
+        "AaName":"Angela Lopez",
+        "role":"Social Media Manager",
+        "image":"angela-lopez-social-media-manager.jpg"
+    },
+    
+    {
+        "AaName":"Scott Estrada",
+        "role":"Developer",
+        "image":"scott-estrada-developer.jpg"
+    },
+    
+    {
+        "AaName":"Barbara Ramos",
+        "role":"Graphic Designer",
+        "image":"barbara-ramos-graphic-designer.jpg"
+    }
+];
 
 let leo
 for(let i = 0; i < team.length; i++){
