@@ -35,7 +35,7 @@ const team = [
     }
 ];
 
-let leo
+
 for(let i = 0; i < team.length; i++){
 
     console.log(team[i].AaName,team[i].role,team[i].image,typeof team[i].image)
